@@ -17,9 +17,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <engines>
         <engine name="cordova" version=">=10.0.0"/>
         <engine name="cordova-android" version=">=11.0.0"/>
-        <engine name="cordova-ios" version=">=6.0.0"/>
+        <!-- <engine name="cordova-ios" version=">=6.0.0"/> -->
     </engines>
-
+<!-- 
     <platform name="ios">
         <preference name="IOS_FIREBASE_POD_VERSION" default="9.3.0" />
 
@@ -55,7 +55,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 <pod name="Firebase/Messaging" spec="$IOS_FIREBASE_POD_VERSION" />
             </pods>
         </podspec>
-    </platform>
+    </platform> -->
 
     <platform name="android">
         <preference name="ANDROID_FIREBASE_BOM_VERSION" default="31.0.2" />

@@ -6,7 +6,6 @@
   "cordova": {
     "id": "cordova-plugin-firebase-messaging",
     "platforms": [
-      "ios",
       "android"
     ]
   },
